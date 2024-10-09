@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal portfolio web</title>
+    <!-- link to CSS  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+       
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <!-- <li><a href="skills.html">Skills</a></li> -->
+            <!-- <li><a href="resume.html">Resume</a></li> -->
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="contactform">
+            <h1>Contact me for work/general Enquiries</h1>
+          <form>
+            <div class="mb-3">
+              <label for="clientEmail1" class="form-label"
+                >Name</label
+              >
+              <input
+                type="name"
+                class="form-control"
+                id="examplename"
+                aria-describedby="emailHelp"
+              />
+              
+            </div>
+            <div class="mb-3">
+                <label for="clientEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email & phone Number with anyone else.
+                </div>
+              </div>
+            <div class="mb-3">
+              <label for="clientphone" class="form-label"
+                >Phone Number</label
+              >
+              <input
+                type="phone"
+                class="form-control"
+                id="clientphone"
+              />
+            </div>
+            <div class="mb-3">
+                <label for="clientEnquiry" class="form-label"
+                  >Enquiry</label
+                >
+                <input
+                  type="enquiry"
+                  class="form-control"
+                  id="exampleenquiry"
+                  aria-describedby="emailHelp"
+                />
+                
+              </div>
+
+            <div class="mb-3" id="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="isclient"
+              />
+              <label class="form-check-label" for="isclient"
+                >I want you to work on a project with me</label
+              >
+            </div>
+            <button type="submit" class="btn-sm">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

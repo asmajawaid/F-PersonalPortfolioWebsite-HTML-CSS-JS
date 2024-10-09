@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+.sidebar{
+    background-color: rgb(214, 219, 219);
+    width: 434px;
+    font-family: "Fira Sans", system-ui;
+    height: 100%;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: gold; */
+    width: 90%;
+  
+
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: olivedrab; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+    margin-left: 25px;
+}
+.hello{
+    font-size: 65px;
+    
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif
+}
+.about{
+    font-size: 35px;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: "Fira Sans", sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border: 1px solid black;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+.devpic img{
+    height: 58vh;
+}
+
+/* work for contact.html */
+.contactform{
+ font-family: "Fira Sans", sans-serif;
+ padding: 34px;
+ padding-top: 0 34px;
+}
+.contactform h1{
+    font-family: "Source Code Pro", monospace;
+    /* text-align: center; */
+    padding: 2px 0;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+ width: 26vw;
+ border-radius: 5px;
+ margin: 6px 0 0 0;
+ padding: 3px;
+}
+#emailhelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+   width: 24px;
+   margin: 3px 0;
+}
+.btn-sm{
+    padding: 10px 19px;
+    /* padding: 9px 14px; */
+    border: 1px solid black;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 11px;
+    /* margin: 0 3px; */
+    margin: 12px 0;
+    cursor: pointer;
+}
+.btn-sm:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+/* about me */
+
+.intro h2{
+    font-family: "Source Code Pro", monospace;
+    margin: 12px;
+}
+
+.intro p{
+    font-family: "Fira Sans", sans-serif;
+    margin: 12px;
+}
+.skillscontainer h3{
+    font-family: "Source Code Pro", monospace;
+}
+.skills li{
+    list-style-type: none;
+    font-family: "Fira Sans", sans-serif;
+    margin: 20px ;
+}
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: darkslategray;
+}
+.skills .bar{
+    background-color: #353b48;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background-color: #2187e7;
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+.css{
+    width: 80%;
+    animation: css 2s;
+}
+.js{
+    width: 70%;
+    animation: js 2s;
+}
+.typescript{
+    width: 80%;
+    animation: typescript 2s;
+}
+.react{
+    width: 40%;
+    animation: react 2s;
+}
+@keyframes html{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 90%;
+	}
+}
+@keyframes css{ /*animate css skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes js{ /*animate javascript skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 70%;
+	}
+}
+@keyframes typescript{ /*animate typescript skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes react{ /*animate react skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 40%;
+	}
+}
